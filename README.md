@@ -1,11 +1,12 @@
 # Game of Life
 
- ** Author Matt Stevens, done as a coding exercise to get familiar with Ruby. March 2014
+Author Matt Stevens. Done as a coding exercise to get familiar with Ruby. March 2014
 
- ** To run, use the command line. Navigate to the directory this file is in and type in;
+## To run, use the command line. Navigate to the directory this file is in and type in;
 ruby gameOfLife.rb
 
- ** Pre-requisites
+## Pre-requisites
+
 You need Ruby installed - visit the Ruby programming language website 
 
 A unix bash style terminal. If running Windows you need Cygwin - visit the Cygwin website
@@ -13,10 +14,12 @@ A unix bash style terminal. If running Windows you need Cygwin - visit the Cygwi
 If you find your terminal screen is not clearing between frames, you also need
 'ncurses' installed to Cygwin, it contains the 'clear' command that is used. - google for the how to.
 
- ** Source Wikipedia
+## Source Wikipedia
+
 Wikipedia has several articles on Conways Game of Life and patterns.
 
- ** Design decisions
+## Design decisions
+
  I didn't want an infinite surface, so surrounded the surface with a one cell wide dead zone. Gliders, etc will hit this and die.
 
  Tied in with the dead zone is a 10 cell wide, hidden zone. Partly so the dead zone does not influence the game. 10 cells is overkill, but handy when trying to balance how large the surface should be based on the first few observations of the game.
