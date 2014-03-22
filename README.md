@@ -2,7 +2,7 @@
 
 Author Matt Stevens. Done as a coding exercise to get familiar with Ruby. March 2014
 
-## To run, use the command line. Navigate to the directory this file is in and type in;
+To run, use the command line. Navigate to the directory this file is in and type in;
 ruby gameOfLife.rb
 
 ## Pre-requisites
@@ -28,7 +28,7 @@ Wikipedia has several articles on Conways Game of Life and patterns.
 
  Adding a file reader might be an idea if you want to extrend this, Wikipedia and possibly other places have txt files with interesting patterns. A file reader would make using them easy.
 
-These are notes from a file that helped to me get started.
+## Notes from a file that helped to me get started.
 
 Conway's Game of Life in Ruby
 http://en.wikipedia.org/wiki/Conway's_Game_of_Life
