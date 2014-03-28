@@ -1,13 +1,17 @@
 # Game of Life
 
-Author Matt Stevens. Done as a coding exercise to get familiar with Ruby. March 2014
+Author Matt Stevens. Done as a coding exercise to get familiar with Ruby and C. March 2014
 
 To run, use the command line. Navigate to the directory this file is in and type in;
 ruby gameOfLife.rb
 
+or for C
+gcc GameOfLife_C.c
+a.out
+
 ## Pre-requisites
 
-You need Ruby installed - visit the Ruby programming language website 
+You need Ruby and C installed - visit the Ruby and C programming language websites. 
 
 A unix bash style terminal. If running Windows you need Cygwin - visit the Cygwin website
 
@@ -18,7 +22,7 @@ If you find your terminal screen is not clearing between frames, you also need
 
 Wikipedia has several articles on Conways Game of Life and patterns.
 
-## Design decisions
+## Ruby
 
  I didn't want an infinite surface, so surrounded the surface with a one cell wide dead zone. Gliders, etc will hit this and die.
 
@@ -28,13 +32,6 @@ Wikipedia has several articles on Conways Game of Life and patterns.
 
  Adding a file reader might be an idea if you want to extrend this, Wikipedia and possibly other places have txt files with interesting patterns. A file reader would make using them easy.
 
-## Notes from a file that helped to me get started.
+## C
+Pointers as expected gave hassles. Otherwise pretty straight forward. It is feature light...
 
-Conway's Game of Life in Ruby
-http://en.wikipedia.org/wiki/Conway's_Game_of_Life
-
-Some code from this excellent article:
-http://rubyquiz.strd6.com/quizzes/193-game-of-life
-
-Cheers!
-Matt
